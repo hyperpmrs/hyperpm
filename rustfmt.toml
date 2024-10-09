@@ -1,0 +1,37 @@
+# rustfmt.toml
+
+# Line width for formatting
+max_width = 100
+
+# Indentation settings
+tab_spaces = 4
+use_small_heuristics = "Max" 
+
+# Control comments formatting
+comment_width = 100
+
+# Formatting options
+chain_indent = "Always"
+fn_call_indent = "Block"
+struct_field_align_threshold = 20
+
+# Control blank lines
+empty_item_line_style = "Never"
+hard_tabs = false
+format_macro_matchers = true
+
+# Control where the `mod` keyword is placed
+mod_indent = "Block"
+
+# Control where `impl` blocks are indented
+impl_item_indent = "Block"
+
+# Control struct field indentation
+struct_field_indent = "Block"
+
+# Control struct and enum variant alignment
+struct_variant_align_threshold = 20
+enum_variant_align_threshold = 20
+
+# Control where imports are placed
+imports_indent = "Block"

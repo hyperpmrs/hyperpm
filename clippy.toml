@@ -1,0 +1,24 @@
+# Clippy configuration file
+
+# This section configures the lints to allow or deny.
+# Uncomment any of the following to enable them.
+deny = ["clippy::all"]
+
+# Specify lints you want to allow.
+allow = [
+    "clippy::too_many_arguments",
+    "clippy::module_name_repetitions",
+    "clippy::unwrap_used"
+]
+
+# Specify lints you want to warn about.
+warn = [
+    "clippy::if_not_else",
+    "clippy::single_match",
+    "clippy::needless_borrow"
+]
+
+# Configuration for specific lints.
+[clippy]
+# Set the default lints to warn.
+default_warnings = true

@@ -52,6 +52,20 @@ hyperpm install package1 package2 package3
 
 This will concurrently install the specified packages, displaying progress for each installation.
 
+## Using with docker
+
+Make sure to specify the base image when building:
+
+- For Debian/Ubuntu:
+  ```bash
+  docker build --build-arg BASE_IMAGE=debian:bullseye-slim -t your-image-name .
+  ```
+
+- For Arch Linux:
+  ```bash
+  docker build --build-arg BASE_IMAGE=archlinux/base -t your-image-name .
+  ```
+
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.

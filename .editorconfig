@@ -1,0 +1,17 @@
+root = true
+
+[*]
+end_of_line = crlf
+indent_size = 4
+indent_style = space
+insert_final_newline = true
+charset = utf-8
+tab_width = 4
+
+[*.{rs,md}]
+end_of_line = crlf
+indent_size = 2
+indent_style = space
+insert_final_newline = false
+charset = utf-8
+tab_width = 2
